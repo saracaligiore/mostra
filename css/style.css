@@ -1,0 +1,534 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #5D7B9E;
+    font-family: 'Switzer', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    font-size: bold;
+   
+}
+
+img{
+    width: 365px;
+    height: 336px;
+    flex-shrink: 0;
+    margin-left: 800px;
+    margin-top: 60px;
+
+
+    
+}
+h1, h2, h3, h4, h5  p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    width: 1440px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #355070
+  
+    
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    
+   
+    
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 22px;
+}
+    
+header p {
+    font-weight: bold;
+    font-size: 35px;
+    font-style: normal;
+   
+}
+header nav ul {
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: medium;
+    display: flex;
+}
+
+   
+.home {
+    display: grid;
+    margin-left: 80px;
+
+}
+
+.home h1 {
+color: #355070;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 90%; 
+width: 813px;
+margin-top: -350px;
+}
+.home h2 {
+    color: #FFF;
+
+    font-family: Switzer;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%; 
+    width: 813px;
+    margin-top: -300px;
+}
+.home h3 {
+    color: #FFF;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    margin-top: -70px;
+}
+
+.infoautori{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 60px;
+    
+ }
+ .artisti h1 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.artisti h2 {
+    
+    color: #FFF;
+    font-size: 40px;
+    width: 900px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-left: 100px; 
+    
+}
+
+.artisti h3 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+    margin-left: 100px;
+   
+}
+
+
+
+
+.infoautori h4 {
+    color: #355070;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    width: 269px;
+    margin-top: 60px;
+   margin-left: 1020px;
+}
+.infoautori p{
+    color: #355070;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 259px;
+    margin-left: 1030px;
+    margin-top: 50px;
+   
+}
+.infoautori img{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 950px;
+    margin-top: -950px;
+    margin-left: 30px;
+    
+}
+.infoautori{
+    background-color: #FFF;
+    margin: 0;
+}
+.artisti2 h1 {
+    color: #355070;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+   margin-left: 500px;
+   
+}
+.artisti2 h2 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 250px;
+  
+
+}
+.artisti2 h3 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.artisti2 h4 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+
+}
+.artisti2 {
+    background-color: #fff;
+   
+}
+.immaginiartisti img{
+    width: 200px;
+    height: 180px;
+    margin-left: 1000px;
+   margin-top: -600px;
+   margin-bottom: 610px;
+   }
+   .immaginiartisti2 img{
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: -500px;
+    margin-bottom: 250px;
+    margin-left: 100px;
+    
+   }
+
+.artisti4 h1 {
+    color: #355070;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+   margin-left: 500px;
+   
+}
+.artisti4 h2 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 250px;
+  
+
+}
+.artisti4 h3 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.artisti4 h4 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+
+}
+.artisti4 {
+    background-color: #fff;
+   
+}
+.imgartisti3 img{
+    width: 200px;
+    height: 180px;
+    margin-left: 1000px;
+   margin-top: -600px;
+   margin-bottom: 610px;
+   }
+   .imgartisti4 img{
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 180px;
+    margin-right: 130px;
+    margin-top: -550px;
+    margin-bottom: 600px;
+   }
+   
+
+   .artisti3 h1 {
+    color: #355070;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+   margin-left: 500px;
+   
+}
+.artisti3 h2 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 250px;
+  
+
+}
+.artisti3 h3 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.artisti3 h4 {
+    width: 670px;
+    color: #355070;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-top: 20px;
+    margin-left: 250px;
+
+}
+.artisti3 {
+    background-color: #fff;
+   
+}
+.imgartisti img{
+    width: 160px;
+    height: 140px;
+    margin-left: 1000px;
+   margin-top: -545px;
+   margin-bottom: 600px;
+   }
+   .imgartisti2 img{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 160px;
+    margin-right: 110px;
+    margin-top: -550px;
+    margin-bottom: 600px;
+   }
+   .mostra h1{
+    color: #355070;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    margin-left: 550px;
+   
+}
+.mostra h2{
+    color: #355070;
+    font-size: 22px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 25px;
+    margin-right: 25px;
+  
+}
+.mostra img{
+    width: 200px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.info h3 {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-right: 25px;
+    margin-left: 20px;
+   
+  
+}
+.info img{
+    width: 180px;
+    height: 160px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.info h4{
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    
+}
+.info h3{
+    background-color: #5D7B9E;
+  
+}
+.info h4{
+    background-color: #5D7B9E;
+    
+}
+.info2 h5{
+    color: #355070;
+    font-size: 22px;
+    font-style: normal;
+    width: 900px;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.mostra{
+    background-color: #FFF;
+}
+   .info2{
+    background-color: #FFF;
+    }
+    .info3 h1{
+        color: #fff;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; 
+       margin-left: 600px;
+       
+    }
+    
+    .info3 h2{
+        color: #fff;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; 
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .info3 h3{
+        color: #fff;
+        font-size: 30px;
+        line-height: 140%; 
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 40px;
+    }
+    .info3 h4{
+        color: #fff;
+        font-size: 30px;
+        line-height: 140%; 
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: -10px;
+    }
+    .info3 h5 {
+        color: #fff;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; 
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 900px;
+    }
+    
+    footer{
+        background: #355070;
+         width: 1440px;
+        height: 77px;
+        flex-shrink: 0;
+        
+    
+    }
+footer{
+    background: #355070;
+     width: 1440px;
+    height: 77px;
+    flex-shrink: 0;
+
+}
+footer nav ul {
+    color: #FFF;
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
